@@ -1,8 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Header } from "../../../components";
 
 const AllUsers = () => {
-    return (
-        <div>AllUsers</div>
-    )
-}
-export default AllUsers
+  return (
+    <main className="dashboard wrapper">
+      <Header
+        title="Trips Page"
+        description="Check out our current users in real time"
+      />
+      All users contents
+    </main>
+  );
+};
+export default AllUsers;
